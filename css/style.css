@@ -141,4 +141,39 @@ p{
     align-items: center;
 }
 
+/*<!-- ***SECTION PARTNERS***** --> */
 
+.section-partners{
+    padding: 3rem 0;
+}
+
+.text-center{
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-center h2{
+    color: #9792e4;
+}
+
+.photo-box{
+    width: 85%;
+    background-color: #9792e4;
+    border-radius: 30px;
+    color: white;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.circle{
+    margin: 0 auto;
+}
+
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
