@@ -1,0 +1,27 @@
+
+/* ***COMMON STYLE**** */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* ***HEADER*** */
+header{
+    background-color: #0084fd;
+}
+
+.row{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    align-items: center;
+}
+
+.fa-solid.fa-bars{
+    font-size: 25px;
+    color: white;
+}
