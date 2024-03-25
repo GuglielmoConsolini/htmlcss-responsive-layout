@@ -17,11 +17,82 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 0.8rem 0;
     align-items: center;
+    padding: 0.8rem 0; 
 }
 
 .fa-solid.fa-bars{
     font-size: 25px;
     color: white;
+}
+
+/* ***SECTION DEMO APPLICATION*** */
+.section-demo{
+    margin-top: 3rem;
+}
+
+.container{
+    width: 100%;
+}
+
+.block{
+    width: 85%;
+    background-color: #b5ddff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.2rem;
+}
+
+.img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img{
+    width: 80%;
+}
+
+.app{
+   width: 60%;
+   color: white;
+   background-color: #0084fd;
+   border: none;
+   border-radius: 15px;
+   margin-left: 1.7rem;
+   margin-bottom: 2rem;
+   padding: 0.8rem 3rem;
+}
+
+.fa-brands.fa-apple{
+    padding-right: 10px;
+}
+
+h2{
+    color: #0084fd;
+    margin-left: 1.7rem;
+    margin-top: 2rem;
+    font-weight:bold
+}
+
+p{
+    margin: 2rem;
+    line-height: 2;
+    margin-left:1.7rem ;
+    font-size: 18px;
+}
+
+.little{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.fa-solid.fa-file-code ,
+.fa-solid.fa-compass-drafting ,
+.fa-solid.fa-laptop-code ,
+.fa-solid.fa-bullhorn{
+    font-size: 6rem;
+    margin-top: 2rem;
+    color: #0084fd;
 }
