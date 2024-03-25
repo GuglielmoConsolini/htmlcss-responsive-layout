@@ -159,7 +159,7 @@ p{
 }
 
 .text-center{
-    width: 85%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -170,7 +170,7 @@ p{
 }
 
 .photo-box{
-    width: 85%;
+    width: 90%;
     background-color: #9792e4;
     border-radius: 30px;
     color: white;
@@ -190,6 +190,13 @@ p{
     object-fit: cover;
 }
 
+.testo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    text-align: left;
+}
 /* <!-- ***SECTION BENEFITS*** --> */
 
 .section-benefits{
@@ -286,5 +293,53 @@ footer{
     text-align: center;
 }
 
+
+/* ****MEDIA QUERIES*** */
+
+@media screen and (min-width: 768px) {
+    .block{
+        width: 65%;
+        margin: 0 ;
+    }
+    .block.little{
+        width: calc(100% / 3 - 10px);
+        margin: 0 ;
+    }
+    .container{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 auto;
+    }
+    h2{
+       font-size: 36px;
+    }
+    .photo-box{
+        display: flex;
+    }
+    p{
+        font-size: 22px;
+    }
+
+    .box{
+        width: 48%;
+    }
+    .section-aboutUs{
+        display: flex;
+        justify-content: space-around;
+    }
+    .column{
+        width: 40%;
+    }
+
+    .div-foot{
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    
+}
 
 
