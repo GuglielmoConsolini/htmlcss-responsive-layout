@@ -7,6 +7,19 @@
     font-family: sans-serif;
 }
 
+.viola{
+    color: #9792e4;
+    margin-top: 0.5rem;
+}
+
+.bianco{
+    color: white;
+}
+
+.mrgn-left{
+    margin-left: 1.7rem;
+}
+
 /* ***HEADER*** */
 header{
     background-color: #0084fd;
@@ -60,8 +73,7 @@ header{
    background-color: #0084fd;
    border: none;
    border-radius: 15px;
-   margin-left: 1.7rem;
-   margin-bottom: 2rem;
+   margin: 2rem 1.7rem;
    padding: 0.8rem 3rem;
 }
 
@@ -71,21 +83,20 @@ header{
 
 h2{
     color: #0084fd;
-    margin-left: 1.7rem;
+    margin-bottom: 2rem;
     margin-top: 2rem;
     font-weight:bold
 }
 
 p{
-    margin: 2rem;
-    line-height: 2;
-    margin-left:1.7rem ;
+    line-height: 1.5;
     font-size: 18px;
 }
 
 .little{
     margin-top: 2rem;
     text-align: center;
+    padding: 1.5rem 2rem;
 }
 
 .fa-solid.fa-file-code ,
@@ -108,11 +119,10 @@ p{
 .column{
     width: 85%;
     margin: 0 auto;
-    color: white;
+    
 }
 
 .column h2{
-    color: white;
     font-weight: bold;
 }
 
@@ -126,6 +136,7 @@ p{
     text-align: center;
     border-radius: 30px;
     padding: 1.5rem 0;
+    margin-top: 1rem;
 }
 
 .purple{
@@ -151,6 +162,7 @@ p{
     width: 85%;
     text-align: center;
     margin: 0 auto;
+    padding: 0 1.5rem;
 }
 
 .text-center h2{
@@ -164,7 +176,7 @@ p{
     color: white;
     margin: 1rem auto;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 1.5rem;
 }
 
 .circle{
@@ -177,3 +189,102 @@ p{
     border-radius: 50%;
     object-fit: cover;
 }
+
+/* <!-- ***SECTION BENEFITS*** --> */
+
+.section-benefits{
+    padding: 2rem 0;
+    background-color: #9792e4;
+}
+
+.section-benefits > h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.box{
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    color: #9792e4;
+    margin-top: 2rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.number{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button-more{
+    width: 40%;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    border: none;
+    margin: 1rem auto;
+}
+
+/* ***SECTION ABOUT US*** */
+
+.section-aboutUs{
+    padding: 2rem 0;
+}
+
+.linkedin{
+    background-color: #9792e4;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+.help{
+    margin-top: 2rem;
+}
+
+/* ***SECTION ITS FREE*** */
+
+.section-free{
+    background-color: #9792e4;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.section-free h2{
+    color: white;
+}
+
+h1{
+    font-size: 40px ;
+    color: #fdc15f;
+    margin: 1.5rem;
+}
+
+.started{
+    margin: 1.5rem;
+    background-color: white;
+    color: #9792e4;
+    border: none;
+    border-radius: 20px;
+    padding: 0.6rem 2.5rem;
+}
+
+/* ***FOOTER*** */
+
+footer{
+    background-color: black;
+    color: #9c9c9c;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+
+
