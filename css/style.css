@@ -116,21 +116,21 @@ p{
     margin-top: 3.5rem;
 }
 
-.column{
+.col{
     width: 85%;
     margin: 0 auto;
     
 }
 
-.column h2{
+.col h2{
     font-weight: bold;
 }
 
-.column.white h2{
+.col.white h2{
     color: black;
 }
 
-.column.white{
+.col.white{
     color: black;
     background-color: white;
     text-align: center;
@@ -338,8 +338,8 @@ footer{
         margin: 0 auto;
         width: 60%;
     }
-
-    
 }
+
+
 
 
