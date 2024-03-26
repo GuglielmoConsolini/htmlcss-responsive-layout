@@ -375,13 +375,17 @@ footer{
 
 
     .block{
-        width: calc(100% - 100% / 3 - 5px);
-        display: flex;
+        width:calc(67% - 15px);
+        display:flex;
         flex-direction: row;
     }
 
+    .text-card{
+        width: 50%;
+    }
+
     .img-container{
-        width: 200%;
+        width: 50%;
     }
 
 
