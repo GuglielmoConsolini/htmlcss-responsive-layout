@@ -34,6 +34,18 @@ header{
     padding: 0.8rem 0; 
 }
 
+.hidden{
+    display: none;
+    color: white;
+}
+
+.header-button{
+    border-radius: 15px;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
 .fa-solid.fa-bars{
     font-size: 25px;
     color: white;
@@ -93,10 +105,16 @@ p{
     font-size: 18px;
 }
 
-.little{
+.block-little{
     margin-top: 2rem;
     text-align: center;
     padding: 1.5rem 2rem;
+    background-color: #b5ddff;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 1.2rem;
+    margin-top: 2rem;
+    
 }
 
 .fa-solid.fa-file-code ,
@@ -128,6 +146,16 @@ p{
 
 .col.white h2{
     color: black;
+}
+
+.img-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-box img{
+    width: 100%;
 }
 
 .col.white{
@@ -301,7 +329,7 @@ footer{
         width: 65%;
         margin: 0 ;
     }
-    .block.little{
+    .block-little{
         width: calc(100% / 3 - 10px);
         margin: 0 ;
     }
@@ -314,7 +342,8 @@ footer{
         margin: 0 auto;
     }
     h2{
-       font-size: 36px;
+       font-size: 30px;
+       text-align: center;
     }
     .photo-box{
         display: flex;
@@ -329,6 +358,7 @@ footer{
     .section-aboutUs{
         display: flex;
         justify-content: space-around;
+        padding: 1rem 1rem;
     }
     .column{
         width: 40%;
@@ -338,6 +368,70 @@ footer{
         margin: 0 auto;
         width: 60%;
     }
+}
+
+@media screen and (min-width: 1180px) {
+
+
+
+    .block{
+        width: calc(100% - 100% / 3 - 5px);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-container{
+        width: 200%;
+    }
+
+
+    .section-planning{
+        display: flex;
+        justify-content: center;
+    }
+    .col{
+    width: 30%;
+    }
+    .col.white{
+    margin-top: 5rem;
+    }
+    .text-center{
+        width: 70%;
+    }
+    .photo-box{
+        width: 70%;
+    }
+    .row{
+        width: 75%;
+    }
+    .container{
+        width: 75%;
+    }
+    .box{
+        width: calc(100% / 3 - 1rem);
+    }
+    .text-box{
+        margin: 0 auto;
+        width: 40%;
+    }
+    .div-foot{
+        width: 40%;
+    }
+    .hidden{
+        display:flex;
+        gap: 10px;
+        align-items: center;
+        position: absolute;
+        right: 0;
+    }
+    .fa-solid.fa-bars{
+        display: none;
+    }
+    .row{
+        position: relative;
+    }
+    
+    
 }
 
 
